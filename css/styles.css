@@ -1,0 +1,969 @@
+/* font-family: 'Dancing Script', cursive; */
+/* font-family: "Raleway", sans-serif; */
+
+/* =================== NAVBAR =================== */
+.navbar {
+  background: #00000000 !important;
+  width: 100%;
+  overflow: hidden;
+  z-index: 999;
+  padding-top: 20px;
+  padding-bottom: 100px;
+}
+.navbar-brand img {
+  width: 100px;
+  height: auto;
+  display: none;
+}
+.nav-link {
+  font-family: "Dancing Script", cursive;
+  font-size: 24px;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: #fff !important;
+}
+.nav-link:hover {
+  font-family: "Dancing Script", cursive;
+  font-size: 24px;
+  color: #f0690e !important;
+}
+.top-nav-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+.top-nav-logo img {
+  width: 20% !important;
+  overflow: hidden;
+  z-index: 999;
+}
+.dropdown-item {
+  font-family: "Dancing Script", cursive;
+  font-size: 24px;
+}
+
+/* =================== MAIN PAGE =================== */
+.main-page img {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+/* =================== VIDEO SECTION =================== */
+.video-row {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+.video-section {
+  position: static;
+  margin-top: 600px;
+  margin-bottom: -480px;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  flex-direction: row !important;
+  width: 100% !important;
+}
+.card {
+  max-width: 100%;
+  max-height: 100% !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0;
+  margin: 20px;
+}
+.video {
+  max-width: 320px;
+  max-height: 200px;
+  border-radius: 20px;
+}
+
+/* =================== COUPLE PAGE =================== */
+.couple {
+  position: static !important;
+  margin-top: 650px;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.couple img {
+  width: 50%;
+  max-height: auto;
+  border-radius: 10px;
+}
+.couple-content {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column !important;
+}
+.couple-content h1 {
+  margin-top: 15px;
+  font-family: "Dancing Script", cursive;
+  font-size: 24px;
+}
+.couple-content p {
+  margin-top: -100px;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  text-align: center;
+  padding: 100px;
+}
+.samiksha-image-modal-header {
+  background-color: #00000000 !important;
+}
+.modal-main-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modal-main-image {
+  max-width: 100%;
+  height: auto;
+}
+
+/* =================== SECTION HEADER =================== */
+
+.section-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section-header img {
+  width: 50%;
+  height: auto;
+}
+.section-header-text {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.section-header-text h1 {
+  font-family: "Dancing Script", cursive;
+  font-size: 44px;
+}
+.section-header-text p {
+  font-family: "Raleway", sans-serif;
+  font-size: 24px;
+}
+
+/* =================== TILAK GALLERY =================== */
+.gallery-tilak {
+  margin-top: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.view-all-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  text-decoration: none;
+}
+.view-all-button p {
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  background-color: #eb6b34;
+  width: 30%;
+  margin-top: 20px;
+  text-align: center;
+  padding: 5px;
+  border-radius: 5px;
+  font-weight: bold;
+  color: #fff;
+}
+@media only screen and (max-width: 200px) {
+  .navbar {
+    background: #fff !important;
+    position: relative !important;
+    width: 100%;
+    padding-bottom: unset !important;
+  }
+  .nav-link {
+    font-family: "Dancing Script", cursive;
+    font-size: 24px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #000 !important;
+  }
+  .navbar-brand img {
+    width: 100px;
+    height: auto;
+    display: block !important;
+  }
+  .top-nav-logo {
+    display: none;
+  }
+
+  .main-page img {
+    width: 100% !important;
+    height: auto;
+    position: relative !important;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+
+  /* =================== COUPLE PAGE =================== */
+  .couple {
+    position: static !important;
+    margin-top: 100px !important;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+  }
+  .couple-content h1 {
+    margin-top: 15px;
+    font-family: "Dancing Script", cursive;
+    font-size: 24px;
+  }
+  .couple-content p {
+    margin-top: 0px !important;
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    text-align: center;
+    padding: 0px !important;
+    margin-bottom: -300px !important;
+  }
+  .card {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+
+  /* =================== SECTION HEADER =================== */
+  .section-header img {
+    width: 50%;
+    height: auto;
+    margin-top: 300px !important;
+  }
+  .section-header-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+  }
+  .section-header-text h1 {
+    font-family: "Dancing Script", cursive;
+    font-size: 30px;
+    margin-top: 50px;
+  }
+  .section-header-text p {
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  .navbar {
+    background: #fff !important;
+    position: relative !important;
+    width: 100%;
+    padding-bottom: unset !important;
+  }
+  .nav-link {
+    font-family: "Dancing Script", cursive;
+    font-size: 24px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #000 !important;
+  }
+  .navbar-brand img {
+    width: 100px;
+    height: auto;
+    display: block !important;
+  }
+  .top-nav-logo {
+    display: none;
+  }
+
+  .main-page img {
+    width: 100% !important;
+    height: auto;
+    position: relative !important;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+
+  /* =================== VIDEO SECTION =================== */
+  .video-row {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    margin-top: -300px !important;
+    flex-direction: column !important;
+    margin-bottom: 280px;
+  }
+
+  /* =================== COUPLE PAGE =================== */
+  .couple {
+    position: static !important;
+    margin-top: 100px !important;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+  }
+  .couple-content h1 {
+    margin-top: 15px;
+    font-family: "Dancing Script", cursive;
+    font-size: 24px;
+  }
+  .couple-content p {
+    margin-top: 0px !important;
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    text-align: center;
+    padding: 0px !important;
+    margin-bottom: -300px !important;
+  }
+  .card {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+
+  /* =================== SECTION HEADER =================== */
+  .section-header img {
+    width: 50%;
+    height: auto;
+    margin-top: 300px !important;
+  }
+  .section-header-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+  }
+  .section-header-text h1 {
+    font-family: "Dancing Script", cursive;
+    font-size: 30px;
+    margin-top: 50px;
+  }
+  .section-header-text p {
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .navbar {
+    background: #fff !important;
+    position: relative !important;
+    width: 100%;
+    padding-bottom: unset !important;
+  }
+  .nav-link {
+    font-family: "Dancing Script", cursive;
+    font-size: 24px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #000 !important;
+  }
+  .navbar-brand img {
+    width: 100px;
+    height: auto;
+    display: block !important;
+  }
+  .top-nav-logo {
+    display: none;
+  }
+
+  .main-page img {
+    width: 100% !important;
+    height: auto;
+    position: relative !important;
+    margin-bottom: -300px !important;
+  }
+
+  /* =================== VIDEO SECTION =================== */
+  .video-row {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    margin-top: -300px !important;
+    flex-direction: column !important;
+    margin-bottom: 280px;
+    width: 100%;
+    height: auto;
+  }
+
+  /* =================== COUPLE PAGE =================== */
+  .couple {
+    position: fixed !important;
+    margin-top: 20px !important;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+  }
+  .couple-content h1 {
+    margin-top: 15px;
+    font-family: "Dancing Script", cursive;
+    font-size: 24px;
+  }
+  .couple-content p {
+    margin-top: 0px !important;
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    text-align: center;
+    padding: 0px !important;
+    margin-bottom: -300px !important;
+  }
+  .card {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+
+  /* =================== SECTION HEADER =================== */
+  .section-header img {
+    width: 50%;
+    height: auto;
+    margin-top: 300px !important;
+  }
+  .section-header-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+  }
+  .section-header-text h1 {
+    font-family: "Dancing Script", cursive;
+    font-size: 30px;
+    margin-top: 50px;
+  }
+  .section-header-text p {
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .navbar {
+    background: #fff !important;
+    position: relative !important;
+    width: 100%;
+    padding-bottom: unset !important;
+  }
+  .nav-link {
+    font-family: "Dancing Script", cursive;
+    font-size: 24px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #000 !important;
+  }
+  .navbar-brand img {
+    width: 100px;
+    height: auto;
+    display: block !important;
+  }
+  .top-nav-logo {
+    display: none;
+  }
+
+  .main-page img {
+    width: 100% !important;
+    height: auto;
+    position: relative !important;
+    margin-bottom: -300px !important;
+  }
+
+  /* =================== COUPLE PAGE =================== */
+  .couple {
+    position: fixed !important;
+    margin-top: 20px !important;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+  }
+  .couple-content h1 {
+    margin-top: 15px;
+    font-family: "Dancing Script", cursive;
+    font-size: 24px;
+  }
+  .couple-content p {
+    margin-top: 0px !important;
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    text-align: center;
+    padding: 0px !important;
+    margin-bottom: -300px !important;
+  }
+  .card {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+
+  /* =================== SECTION HEADER =================== */
+  .section-header img {
+    width: 50%;
+    height: auto;
+    margin-top: 300px !important;
+  }
+  .section-header-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+  }
+  .section-header-text h1 {
+    font-family: "Dancing Script", cursive;
+    font-size: 30px;
+    margin-top: 50px;
+  }
+  .section-header-text p {
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .navbar {
+    background: #fff !important;
+    position: relative !important;
+    width: 100%;
+    padding-bottom: unset !important;
+  }
+  .nav-link {
+    font-family: "Dancing Script", cursive;
+    font-size: 24px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #000 !important;
+  }
+  .navbar-brand img {
+    width: 100px;
+    height: auto;
+    display: block !important;
+  }
+  .top-nav-logo {
+    display: none;
+  }
+
+  .main-page img {
+    width: 100% !important;
+    height: auto;
+    position: relative !important;
+    margin-bottom: -300px !important;
+  }
+
+  /* =================== VIDEO SECTION =================== */
+  .video-row {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    margin-top: -300px !important;
+    flex-direction: column !important;
+    margin-bottom: 280px;
+  }
+
+  /* =================== COUPLE PAGE =================== */
+  .couple {
+    position: fixed !important;
+    margin-top: 20px !important;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+  }
+  .couple-content h1 {
+    margin-top: 15px;
+    font-family: "Dancing Script", cursive;
+    font-size: 24px;
+  }
+  .couple-content p {
+    margin-top: 0px !important;
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    text-align: center;
+    padding: 0px !important;
+    margin-bottom: -300px !important;
+  }
+  .card {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+
+  /* =================== SECTION HEADER =================== */
+  .section-header img {
+    width: 50%;
+    height: auto;
+    margin-top: 300px !important;
+  }
+  .section-header-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+  }
+  .section-header-text h1 {
+    font-family: "Dancing Script", cursive;
+    font-size: 30px;
+    margin-top: 50px;
+  }
+  .section-header-text p {
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .navbar {
+    background: #fff !important;
+    position: relative !important;
+    width: 100%;
+    padding-bottom: unset !important;
+  }
+  .nav-link {
+    font-family: "Dancing Script", cursive;
+    font-size: 24px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #000 !important;
+  }
+  .navbar-brand img {
+    width: 100px;
+    height: auto;
+    display: block !important;
+  }
+  .top-nav-logo {
+    display: none;
+  }
+
+  /* =================== VIDEO SECTION =================== */
+  .video-row {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    margin-top: -300px !important;
+    flex-direction: column !important;
+    margin-bottom: 280px;
+  }
+
+  /* =================== COUPLE PAGE =================== */
+  .couple {
+    position: static !important;
+    margin-top: 400px !important;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+  }
+  .couple-content h1 {
+    margin-top: 15px;
+    font-family: "Dancing Script", cursive;
+    font-size: 24px;
+  }
+  .couple-content p {
+    margin-top: 0px !important;
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    text-align: center;
+    padding: 0px !important;
+    margin-bottom: -150px;
+  }
+  .card {
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+
+  /* =================== SECTION HEADER =================== */
+  .section-header img {
+    width: 70%;
+    height: auto;
+    margin-top: 150px;
+  }
+  .section-header #logo {
+    width: 25%;
+    height: auto;
+    margin-top: -160px;
+  }
+  .section-header-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+  }
+  .section-header-text h1 {
+    font-family: "Dancing Script", cursive;
+    font-size: 30px;
+    margin-top: 50px;
+  }
+  .section-header-text p {
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .navbar {
+    background: #fff !important;
+    position: relative !important;
+    width: 100%;
+    padding-bottom: unset !important;
+  }
+  .nav-link {
+    font-family: "Dancing Script", cursive;
+    font-size: 24px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #000 !important;
+  }
+  .navbar-brand img {
+    width: 100px;
+    height: auto;
+    display: block !important;
+  }
+  .top-nav-logo {
+    display: none;
+  }
+
+  /* =================== VIDEO SECTION =================== */
+  .video-row {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    margin-top: -300px !important;
+    flex-direction: column !important;
+    margin-bottom: 280px;
+  }
+
+  /* =================== COUPLE PAGE =================== */
+  .couple {
+    position: static !important;
+    margin-top: 500px;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+  }
+  .couple-content h1 {
+    margin-top: 15px;
+    font-family: "Dancing Script", cursive;
+    font-size: 24px;
+  }
+  .couple-content p {
+    margin-top: 0px !important;
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    text-align: center;
+    padding: 0px !important;
+    margin-bottom: -150px;
+  }
+  .card {
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+
+  /* =================== SECTION HEADER =================== */
+  .section-header img {
+    width: 70%;
+    height: auto;
+    margin-top: 150px;
+  }
+  .section-header #logo {
+    width: 25%;
+    height: auto;
+    margin-top: -160px;
+  }
+  .section-header-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+  }
+  .section-header-text h1 {
+    font-family: "Dancing Script", cursive;
+    font-size: 30px;
+    margin-top: 50px;
+  }
+  .section-header-text p {
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    text-align: center;
+  }
+}
+
+/*By Hasan*/
+
+/*FB GRID VIEW*/
+.tz-gallery {
+  width: 84%;
+  background: var(--background);
+  padding: 2rem 8%;
+  column-count: 4;
+  gap: 10px;
+}
+
+/*Gellery Popup*/
+.lightbox img {
+  transition: 0.2s ease-in-out;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+  max-height: 170px;
+  object-fit: cover;
+  object-position: top;
+}
+
+/*Facebook Like Gallery*/
+.big {
+  width: 54em;
+  height: 39em;
+  padding: 10px;
+}
+.small {
+  width: 31em;
+  height: 22em;
+  padding: 10px;
+}
+
+@media (max-width: 1400px) {
+  .big {
+    width: 46em;
+  }
+  .small {
+    width: 27em;
+  }
+  .tz-gallery {
+    margin-top: 2em;
+  }
+}
+
+@media (max-width: 1200px) {
+  .big {
+    width: 39em;
+  }
+  .small {
+    width: 22em;
+  }
+  .tz-gallery {
+    margin-top: 5em;
+  }
+}
+
+@media (max-width: 992px) {
+  .big {
+    width: 29em;
+    height: 28em;
+  }
+  .small {
+    width: 17em;
+    height: 16em;
+  }
+  .tz-gallery {
+    margin-top: 9em;
+    column-count: 3;
+  }
+  .lightbox img {
+    max-height: 130px;
+  }
+}
+
+@media (max-width: 802px) {
+  .tz-gallery {
+    margin-top: 25em;
+    column-count: 2;
+  }
+  .lightbox img {
+    max-height: 10em;
+  }
+}
+@media (max-width: 768px) {
+  .big {
+    width: 20em;
+    height: 21em;
+    padding: 2px;
+  }
+  .small {
+    width: 14em;
+    height: 12em;
+    padding: 2px;
+  }
+}
+
+@media (max-width: 602px) {
+  .tz-gallery {
+    margin-top: 18em;
+  }
+  .lightbox img {
+    max-height: 8em;
+  }
+}
+@media (max-width: 540px) {
+  .big {
+    width: 18em;
+    height: 18em;
+  }
+  .small {
+    width: 12em;
+    height: 10em;
+  }
+  .lightbox img {
+    max-height: 7em;
+  }
+}
+@media (max-width: 470px) {
+  .big {
+    width: 14em;
+    height: 14em;
+  }
+  .small {
+    width: 10em;
+    height: 8em;
+  }
+}
+@media (max-width: 380px) {
+  .big {
+    width: 10em;
+    height: 9em;
+  }
+  .small {
+    width: 6em;
+    height: 5em;
+  }
+  .lightbox img {
+    max-height: 5em;
+  }
+}
+.box img {
+  margin-bottom: 10px;
+  width: 100%;
+}
