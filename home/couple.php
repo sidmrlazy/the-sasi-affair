@@ -13,7 +13,7 @@
 </div>
 
 
-<!-- Siddharth Image Modal -->
+<!-- Siddharth Image Modal Section -->
 <div class="modal fade" id="siddharthModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog modal-dialog-centered modal-xl">
         <div class="modal-content">
