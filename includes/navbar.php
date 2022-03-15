@@ -53,7 +53,7 @@
                     <a class="nav-link" href="index.php#baraat">Baraat (SaSi)</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="index.php#mandap">Mandap</a>
+                    <a class="nav-link" href="index.php#shaadi">Shaadi</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="index.php#reception">Reception</a>
