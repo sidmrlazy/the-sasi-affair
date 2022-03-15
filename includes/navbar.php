@@ -1,5 +1,5 @@
 <a href="index.php" class="container top-nav-logo">
-    <img src="images/logo-new.png" alt="">
+    <img src="images/logo-new.webp" alt="">
 </a>
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-fixed-top">

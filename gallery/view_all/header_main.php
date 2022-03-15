@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css" rel="stylesheet">
-    <link rel="shortcut icon" href="../../images/logo-new.png" type="image/x-icon">
+    <link rel="shortcut icon" href="../../images/logo-new.webp" type="image/x-icon">
     <!-- <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" rel="stylesheet"> -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
@@ -32,7 +32,7 @@
 
     <!-- Navbar -->
     <a href="../../index.php" class="container top-nav-logo">
-        <img src="../../images/logo-new.png" alt="">
+        <img src="../../images/logo-new.webp" alt="">
     </a>
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-fixed-top">
