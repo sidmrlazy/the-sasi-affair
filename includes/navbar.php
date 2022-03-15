@@ -1,6 +1,6 @@
-<div class="container top-nav-logo">
+<a href="index.php" class="container top-nav-logo">
     <img src="images/logo-new.png" alt="">
-</div>
+</a>
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-fixed-top">
     <div class="container-fluid">
