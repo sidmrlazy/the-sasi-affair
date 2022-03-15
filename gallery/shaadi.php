@@ -6,7 +6,7 @@
             </div>
 
             <div class="col-md-6 section-header-text">
-                <h1>Mehendi Ceremony (Sa)</h1>
+                <h1>Shaadi</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                     labore et dolore magna aliqua.</p>
             </div>

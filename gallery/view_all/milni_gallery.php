@@ -1,6 +1,4 @@
-<?php
-include 'header_main.php';
-?>
+<?php include 'header_main.php'; ?>
 
 <center>
     <div class="tz-gallery">
