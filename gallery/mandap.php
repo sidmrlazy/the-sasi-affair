@@ -1,4 +1,4 @@
-<section class="gallery-tilak mb-5">
+<section class="gallery-tilak main-album-section mb-5">
     <div class="container">
         <div class="row mb-3">
             <div class="col-md-4">

@@ -1,43 +1,6 @@
-<section class="gallery-tilak mb-5">
+<?php include 'includes/section-header.php'; ?>
+<section class="gallery-tilak main-album-section mb-5">
     <div class="container">
-        <!-- <div class="row mb-3">
-            <div class="col-md-4">
-                <div class="card">
-                    <img src="images/cover/tilak-cover/cover-1.jpg" class="card-img-top" alt="...">
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card">
-                    <img src="images/cover/tilak-cover/cover-2.jpg" class="card-img-top" alt="...">
-                </div>
-            </div>
-
-            <div class="col-md-4">
-                <div class="card">
-                    <img src="images/cover/tilak-cover/cover-3.jpg" class="card-img-top" alt="...">
-                </div>
-            </div>
-        </div>
-
-        <div class="row mb-3">
-            <div class="col-md-4">
-                <div class="card">
-                    <img src="images/cover/tilak-cover/cover-4.jpg" class="card-img-top" alt="...">
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card">
-                    <img src="images/cover/tilak-cover/cover-5.jpg" class="card-img-top" alt="...">
-                </div>
-            </div>
-
-            <div class="col-md-4">
-                <div class="card">
-                    <img src="images/cover/tilak-cover/cover-6.jpg" class="card-img-top" alt="...">
-                </div>
-            </div>
-        </div> -->
-
         <center>
             <table>
                 <tr>
@@ -59,10 +22,6 @@
             </table>
         </center>
 
-        <!-- <a href="" data-bs-toggle="modal" data-bs-target="#tilakModal" class="col-md-12 view-all-button"
-            style="text-decoration: none;">
-            <p>View All</p>
-        </a> -->
         <a href="gallery/view_all/tilak_gallery.php" class="col-md-12 view-all-button" style="text-decoration: none;">
             <p>View All</p>
         </a>

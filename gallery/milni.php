@@ -1,4 +1,5 @@
-<section class="gallery-tilak mb-5">
+<?php include 'includes/section-header-milni.php'; ?>
+<section class="gallery-tilak main-album-section mb-5">
     <div class="container">
 
         <center>

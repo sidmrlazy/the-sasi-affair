@@ -1,7 +1,6 @@
-<section class="gallery-tilak mb-5">
+<?php include 'includes/section-header-haldi-Sa.php'; ?>
+<section class="gallery-tilak main-album-section mb-5">
     <div class="container">
-
-
         <center>
             <table>
                 <tr>
@@ -22,14 +21,9 @@
                 </tr>
             </table>
         </center>
-
-
         <a href="gallery/view_all/haldi_sa_gallery.php" class="col-md-12 view-all-button"
             style="text-decoration: none;">
             <p>View All</p>
         </a>
-
-
-
     </div>
 </section>

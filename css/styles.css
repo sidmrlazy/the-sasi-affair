@@ -1,6 +1,13 @@
 /* font-family: 'Dancing Script', cursive; */
 /* font-family: "Raleway", sans-serif; */
 
+.album-header {
+  margin-bottom: -150px;
+}
+.main-album-section {
+  margin-bottom: 200px !important;
+}
+
 /* =================== NAVBAR =================== */
 .navbar {
   background: #00000000 !important;
@@ -119,6 +126,9 @@
 .samiksha-image-modal-header {
   background-color: #00000000 !important;
 }
+.modal {
+  background-color: rgba(0, 0, 0, 0.8);
+}
 .modal-main-image {
   display: flex;
   justify-content: center;
@@ -127,6 +137,16 @@
 .modal-main-image {
   max-width: 100%;
   height: auto;
+  border: 0;
+}
+.modal-content {
+  background-color: #00000000 !important;
+  border: 0 !important;
+}
+.carousel-item img {
+  border-radius: 10px;
+  max-width: 100% !important;
+  height: auto !important;
 }
 
 /* =================== SECTION HEADER =================== */
