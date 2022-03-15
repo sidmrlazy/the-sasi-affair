@@ -15,3 +15,4 @@
 <?php include 'gallery/reception.php'; ?>
 <?php include 'gallery/vidaai.php'; ?>
 <?php include 'includes/footer.php'; ?>
+<!-- Hello -->
