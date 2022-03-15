@@ -5,7 +5,7 @@ include 'header_main.php';
 <center>
     <div class="tz-gallery">
         <?php
-        $all_files = glob("../../images/haldi-sa/*.*");
+        $all_files = glob("../../images/milni/*.*");
         for ($i = 0; $i < count($all_files); $i++) {
             $image_name = $all_files[$i];
             $supported_format = array('gif', 'jpg', 'jpeg', 'png', 'webp');
