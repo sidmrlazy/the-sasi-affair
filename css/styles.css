@@ -7,6 +7,10 @@
 .main-album-section {
   margin-bottom: 200px !important;
 }
+.album-grid img {
+  max-width: 100%;
+  height: auto;
+}
 
 /* =================== NAVBAR =================== */
 .navbar {
@@ -457,10 +461,17 @@
   }
 
   /* =================== SECTION HEADER =================== */
+  /* .album-header {
+    margin-bottom: -550px !important;
+  } */
+  .main-album-section {
+    margin-bottom: -250px !important;
+  }
   .section-header img {
     width: 50%;
     height: auto;
-    margin-top: 300px !important;
+    /* margin-top: 300px !important; */
+    margin-bottom: -100px !important;
   }
   .section-header-text {
     display: flex;
