@@ -11,6 +11,7 @@
 <?php include 'gallery/mehendi-sa.php'; ?>
 <?php include 'gallery/mehendi-si.php'; ?>
 <?php include 'gallery/baraat.php'; ?>
+<?php include 'gallery/reception.php'; ?>
 <?php include 'gallery/vidaai.php'; ?>
 <?php include 'includes/footer.php'; ?>
 <!-- Hello -->

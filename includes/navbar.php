@@ -50,13 +50,13 @@
                     <a class="nav-link" href="index.php#baraat">Baraat (SaSi)</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Mandap</a>
+                    <a class="nav-link" href="index.php#mandap">Mandap</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Reception</a>
+                    <a class="nav-link" href="index.php#reception">Reception</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Vidaai</a>
+                    <a class="nav-link" href="index.php#vidaai">Vidaai</a>
                 </li>
             </ul>
         </div>

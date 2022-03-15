@@ -1,4 +1,4 @@
- <section class="section album-header" id="baraat">
+ <section class="section album-header" id="vidaai">
      <div class="container">
          <div class="row">
 
