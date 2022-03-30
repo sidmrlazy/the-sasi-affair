@@ -285,6 +285,9 @@
   }
 
   /* =================== SECTION HEADER =================== */
+  .album-header {
+    margin-top: 150px !important;
+  }
   .section-header img {
     width: 50%;
     height: auto;
@@ -315,6 +318,9 @@
 }
 
 @media only screen and (max-width: 300px) {
+  .album-header {
+    margin-top: 150px !important;
+  }
   .navbar {
     background: #fff !important;
     position: relative !important;
@@ -419,6 +425,9 @@
 }
 
 @media only screen and (max-width: 400px) {
+  .album-header {
+    margin-top: 150px !important;
+  }
   .navbar {
     background: #fff !important;
     position: relative !important;
@@ -527,6 +536,9 @@
 }
 
 @media only screen and (max-width: 500px) {
+  .album-header {
+    margin-top: 150px !important;
+  }
   .navbar {
     background: #fff !important;
     position: relative !important;
@@ -619,6 +631,9 @@
 }
 
 @media only screen and (max-width: 600px) {
+  .album-header {
+    margin-top: 150px !important;
+  }
   .navbar {
     background: #fff !important;
     position: relative !important;
@@ -717,6 +732,9 @@
 }
 
 @media only screen and (max-width: 700px) {
+  .album-header {
+    margin-top: 150px !important;
+  }
   .navbar {
     background: #fff !important;
     position: relative !important;
@@ -813,6 +831,9 @@
 }
 
 @media only screen and (max-width: 800px) {
+  .album-header {
+    margin-top: 150px !important;
+  }
   .navbar {
     background: #fff !important;
     position: relative !important;
