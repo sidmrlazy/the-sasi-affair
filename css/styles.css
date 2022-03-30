@@ -179,6 +179,21 @@
   font-family: "Raleway", sans-serif;
   font-size: 24px;
 }
+.grid-gallery-main {
+  margin-top: 10px;
+}
+.grid-gallery {
+  max-width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px !important;
+}
+.grid-gallery-img {
+  max-width: 100% !important;
+  height: auto !important;
+}
 
 /* =================== TILAK GALLERY =================== */
 .gallery-tilak {
@@ -291,6 +306,11 @@
     font-size: 16px;
     text-align: center;
   }
+  .grid-gallery-img {
+    max-width: 100% !important;
+    height: auto !important;
+    margin-top: 20px !important;
+  }
 }
 
 @media only screen and (max-width: 300px) {
@@ -387,6 +407,11 @@
     font-size: 16px;
     text-align: center;
   }
+  .grid-gallery-img {
+    max-width: 100% !important;
+    height: auto !important;
+    margin-top: 20px !important;
+  }
 }
 
 @media only screen and (max-width: 400px) {
@@ -461,9 +486,6 @@
   }
 
   /* =================== SECTION HEADER =================== */
-  /* .album-header {
-    margin-bottom: -550px !important;
-  } */
   .main-album-section {
     margin-bottom: -250px !important;
   }
@@ -479,6 +501,7 @@
     align-items: center;
     flex-direction: column;
     margin-top: 50px;
+    margin-bottom: -20px;
   }
   .section-header-text h1 {
     font-family: "Dancing Script", cursive;
@@ -489,6 +512,11 @@
     font-family: "Raleway", sans-serif;
     font-size: 16px;
     text-align: center;
+  }
+  .grid-gallery-img {
+    max-width: 100% !important;
+    height: auto !important;
+    margin-top: 20px !important;
   }
 }
 

@@ -2,6 +2,7 @@
 
 <center>
     <div class="tz-gallery">
+
         <?php
         $all_files = glob("../../images/milni/*.*");
         for ($i = 0; $i < count($all_files); $i++) {
@@ -12,13 +13,9 @@
                 // $file_name= explode("/",$image_name);
         ?>
 
-        <?php
-                echo '<a class="lightbox" href="' . $image_name . '">'
-                ?>
+        <?php echo '<a class="lightbox" href="' . $image_name . '">' ?>
         <div class="box">
-            <?php
-                    echo '<img src="' . $image_name . '" data-echo="' . $image_name . '"/>'
-                    ?>
+            <?php echo '<img src="' . $image_name . '" data-echo="' . $image_name . '"/>' ?>
         </div>
         </a>
 
