@@ -193,6 +193,7 @@
 .grid-gallery-img {
   max-width: 100% !important;
   height: auto !important;
+  border-radius: 10px;
 }
 
 /* =================== TILAK GALLERY =================== */

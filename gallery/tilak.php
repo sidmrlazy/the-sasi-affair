@@ -8,15 +8,39 @@
 
             <div class="col-md-6 section-header-text">
                 <h1>Tilak Ceremony</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                    labore et dolore magna aliqua.</p>
+                <p>The ceremony is the first step towards strengthening the new relationship between the two families.
+                    The significance of the ceremony lies in the fact that both the families celebrate their new bond
+                    with joy and merriment</p>
             </div>
         </div>
     </div>
 </section>
 <section class="gallery-tilak main-album-section mb-5">
     <div class="container">
-        <center>
+        <div class="row grid-gallery-main">
+            <div class="col-md-4" class="grid-gallery">
+                <img src="images/cover/tilak-cover/cover-1.webp" class="grid-gallery-img">
+            </div>
+            <div class="col-md-4">
+                <img src="images/cover/tilak-cover/cover-2.webp" class="grid-gallery-img">
+            </div>
+            <div class="col-md-4">
+                <img src="images/cover/tilak-cover/cover-3.webp" class="grid-gallery-img">
+            </div>
+        </div>
+
+        <div class="row grid-gallery-main">
+            <div class="col-md-4" class="grid-gallery">
+                <img src="images/cover/tilak-cover/cover-4.webp" class="grid-gallery-img">
+            </div>
+            <div class="col-md-4">
+                <img src="images/cover/tilak-cover/cover-5.webp" class="grid-gallery-img">
+            </div>
+            <div class="col-md-4">
+                <img src="images/cover/tilak-cover/cover-6.webp" class="grid-gallery-img">
+            </div>
+        </div>
+        <!-- <center>
             <table>
                 <tr>
                     <td rowspan="2" colspan="2"><img src="images/cover/tilak-cover/cover-1.webp" class="big"></td>
@@ -35,14 +59,14 @@
                     <td><img src="images/cover/tilak-cover/cover-6.webp" class="small"></td>
                 </tr>
             </table>
-        </center>
+        </center> -->
 
         <a href="gallery/view_all/tilak_gallery.php" class="col-md-12 view-all-button" style="text-decoration: none;">
             <p>View All</p>
         </a>
 
 
-        <div class="modal fade " id="tilakModal">
+        <!-- <div class="modal fade " id="tilakModal">
             <div class="modal-dialog modal-dialog-centered modal-xl">
                 <div class="modal-content">
                     <div id="carouselExampleControlsTilak" class="carousel slide" data-ride="carousel">
@@ -57,7 +81,6 @@
                                 $supported_format = array('gif', 'jpg', 'jpeg', 'png', 'webp');
                                 $ext = strtolower(pathinfo($image_name, PATHINFO_EXTENSION));
                                 if (in_array($ext, $supported_format)) {
-                                    // $file_name= explode("/",$image_name);
                             ?>
 
                             <div class="carousel-item">
@@ -83,6 +106,6 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
     </div>
 </section>
