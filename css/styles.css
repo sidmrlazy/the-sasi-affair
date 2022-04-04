@@ -223,12 +223,20 @@
   font-weight: bold;
   color: #fff;
 }
-@media only screen and (max-width: 200px) {
+@media only screen and (max-width: 768px) {
+  .top-nav-logo {
+    display: none;
+  }
   .navbar {
     background: #fff !important;
     position: relative !important;
-    width: 100%;
-    padding-bottom: unset !important;
+    max-width: 100%;
+    padding-bottom: 20px !important;
+  }
+  .navbar-brand img {
+    width: 100px;
+    height: fit-content !important;
+    display: block !important;
   }
   .nav-link {
     font-family: "Dancing Script", cursive;
@@ -237,695 +245,77 @@
     margin-right: 10px;
     color: #000 !important;
   }
-  .navbar-brand img {
-    width: 100px;
-    height: auto;
-    display: block !important;
-  }
-  .top-nav-logo {
-    display: none;
-  }
-
-  .main-page img {
-    width: 100% !important;
-    height: auto;
-    position: relative !important;
+  .main-page {
+    max-width: 100%;
+    height: max-content !important;
+    position: absolute;
     top: 0;
     left: 0;
     right: 0;
   }
-
-  /* =================== COUPLE PAGE =================== */
-  .couple {
-    position: static !important;
-    margin-top: 100px !important;
-    display: flex !important;
-    justify-content: center;
-    align-items: center;
-  }
-  .couple-content h1 {
-    margin-top: 15px;
-    font-family: "Dancing Script", cursive;
-    font-size: 24px;
-  }
-  .couple-content p {
-    margin-top: 0px !important;
-    font-family: "Raleway", sans-serif;
-    font-size: 16px;
-    text-align: center;
-    padding: 0px !important;
-    margin-bottom: -300px !important;
-  }
-  .card {
+  .main-page img {
     width: 100%;
-    height: auto;
-    display: flex;
+    height: fit-content;
+    padding-top: 80px;
+  }
+  .video-section {
+    position: static;
+    margin-top: 250px;
+    width: 100% !important;
+    height: fit-content !important;
+  }
+  .video-row {
+    display: flex !important;
     justify-content: center !important;
     align-items: center !important;
+    flex-direction: column !important;
+    margin-top: 10px !important;
   }
-
-  /* =================== SECTION HEADER =================== */
-  .album-header {
-    margin-top: 150px !important;
-  }
-  .section-header img {
-    width: 50%;
-    height: auto;
-    margin-top: 300px !important;
-  }
-  .section-header-text {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin-top: 50px;
-  }
-  .section-header-text h1 {
-    font-family: "Dancing Script", cursive;
-    font-size: 30px;
-    margin-top: 50px;
-  }
-  .section-header-text p {
-    font-family: "Raleway", sans-serif;
-    font-size: 16px;
-    text-align: center;
-  }
-  .grid-gallery-img {
-    max-width: 100% !important;
-    height: auto !important;
-    margin-top: 20px !important;
-  }
-}
-
-@media only screen and (max-width: 300px) {
-  .album-header {
-    margin-top: 150px !important;
-  }
-  .navbar {
-    background: #fff !important;
-    position: relative !important;
-    width: 100%;
-    padding-bottom: unset !important;
-  }
-  .nav-link {
-    font-family: "Dancing Script", cursive;
-    font-size: 24px;
-    margin-left: 10px;
-    margin-right: 10px;
-    color: #000 !important;
-  }
-  .navbar-brand img {
-    width: 100px;
-    height: auto;
-    display: block !important;
-  }
-  .top-nav-logo {
-    display: none;
-  }
-
-  .main-page img {
-    width: 100% !important;
-    height: auto;
-    position: relative !important;
+  .couple-section {
+    margin: 0;
     top: 0;
     left: 0;
     right: 0;
+    position: relative;
+    margin-top: 600px;
   }
-
-  /* =================== VIDEO SECTION =================== */
-  .video-row {
-    display: flex !important;
-    justify-content: center !important;
-    align-items: center !important;
-    margin-top: -300px !important;
-    flex-direction: column !important;
-    margin-bottom: 280px;
-  }
-
-  /* =================== COUPLE PAGE =================== */
   .couple {
     position: static !important;
-    margin-top: 100px !important;
     display: flex !important;
-    justify-content: center;
-    align-items: center;
-  }
-  .couple-content h1 {
-    margin-top: 15px;
-    font-family: "Dancing Script", cursive;
-    font-size: 24px;
-  }
-  .couple-content p {
-    margin-top: 0px !important;
-    font-family: "Raleway", sans-serif;
-    font-size: 16px;
-    text-align: center;
-    padding: 0px !important;
-    margin-bottom: -300px !important;
-  }
-  .card {
-    width: 100%;
-    height: auto;
-    display: flex;
     justify-content: center !important;
     align-items: center !important;
+    margin: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding-bottom: 50px;
   }
-
-  /* =================== SECTION HEADER =================== */
-  .section-header {
-    margin-top: 300px !important;
-  }
-  .section-header img {
-    width: 50%;
-    height: auto;
-    margin-top: 300px !important;
-  }
-  .section-header-text {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin-top: 50px;
-  }
-  .section-header-text h1 {
-    font-family: "Dancing Script", cursive;
-    font-size: 30px;
-    margin-top: 50px;
-  }
-  .section-header-text p {
-    font-family: "Raleway", sans-serif;
-    font-size: 16px;
-    text-align: center;
-  }
-  .grid-gallery-img {
-    max-width: 100% !important;
-    height: auto !important;
-    margin-top: 20px !important;
-  }
-}
-
-@media only screen and (max-width: 400px) {
   .album-header {
-    margin-top: 150px !important;
-  }
-  .navbar {
-    background: #fff !important;
-    position: relative !important;
-    width: 100%;
-    padding-bottom: unset !important;
-  }
-  .nav-link {
-    font-family: "Dancing Script", cursive;
-    font-size: 24px;
-    margin-left: 10px;
-    margin-right: 10px;
-    color: #000 !important;
-  }
-  .navbar-brand img {
-    width: 100px;
-    height: auto;
-    display: block !important;
-  }
-  .top-nav-logo {
-    display: none;
-  }
-
-  .main-page img {
-    width: 100% !important;
-    height: auto;
-    position: relative !important;
-    margin-bottom: -300px !important;
-  }
-
-  /* =================== VIDEO SECTION =================== */
-  .video-row {
-    display: flex !important;
-    justify-content: center !important;
-    align-items: center !important;
-    margin-top: -300px !important;
-    flex-direction: column !important;
-    margin-bottom: 280px;
-    width: 100%;
-    height: auto;
-  }
-
-  /* =================== COUPLE PAGE =================== */
-  .couple {
-    position: fixed !important;
-    margin-top: 20px !important;
-    display: flex !important;
+    display: flex;
     justify-content: center;
     align-items: center;
-  }
-  .couple-content h1 {
-    margin-top: 15px;
-    font-family: "Dancing Script", cursive;
-    font-size: 24px;
-  }
-  .couple-content p {
-    margin-top: 0px !important;
-    font-family: "Raleway", sans-serif;
-    font-size: 16px;
-    text-align: center;
-    padding: 0px !important;
-    margin-bottom: -300px !important;
-  }
-  .card {
-    width: 100%;
-    height: auto;
-    display: flex;
-    justify-content: center !important;
-    align-items: center !important;
-  }
-
-  /* =================== SECTION HEADER =================== */
-  .main-album-section {
-    margin-bottom: -250px !important;
-  }
-  .section-header {
-    margin-top: 300px !important;
-  }
-  .section-header img {
-    width: 50%;
-    height: auto;
-    /* margin-top: 300px !important; */
-    margin-bottom: -100px !important;
+    margin-top: 50px;
   }
   .section-header-text {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-top: 50px;
   }
   .section-header-text h1 {
     font-family: "Dancing Script", cursive;
-    font-size: 30px;
-    margin-top: 50px;
+    font-size: 36px;
   }
   .section-header-text p {
     font-family: "Raleway", sans-serif;
-    font-size: 16px;
+    font-size: 20px;
     text-align: center;
   }
   .grid-gallery-img {
     max-width: 100% !important;
     height: auto !important;
-    margin-top: 20px !important;
-  }
-}
-
-@media only screen and (max-width: 500px) {
-  .album-header {
-    margin-top: 150px !important;
-  }
-  .navbar {
-    background: #fff !important;
-    position: relative !important;
-    width: 100%;
-    padding-bottom: unset !important;
-  }
-  .nav-link {
-    font-family: "Dancing Script", cursive;
-    font-size: 24px;
-    margin-left: 10px;
-    margin-right: 10px;
-    color: #000 !important;
-  }
-  .navbar-brand img {
-    width: 100px;
-    height: auto;
-    display: block !important;
-  }
-  .top-nav-logo {
-    display: none;
-  }
-
-  .main-page img {
-    width: 100% !important;
-    height: auto;
-    position: relative !important;
-    margin-bottom: -300px !important;
-  }
-
-  /* =================== COUPLE PAGE =================== */
-  .couple {
-    position: fixed !important;
-    margin-top: 20px !important;
-    display: flex !important;
-    justify-content: center;
-    align-items: center;
-  }
-  .couple-content h1 {
-    margin-top: 15px;
-    font-family: "Dancing Script", cursive;
-    font-size: 24px;
-  }
-  .couple-content p {
-    margin-top: 0px !important;
-    font-family: "Raleway", sans-serif;
-    font-size: 16px;
-    text-align: center;
-    padding: 0px !important;
-    margin-bottom: -300px !important;
-  }
-  .card {
-    width: 100%;
-    height: auto;
-    display: flex;
-    justify-content: center !important;
-    align-items: center !important;
-  }
-
-  /* =================== SECTION HEADER =================== */
-  .section-header {
-    margin-top: 300px !important;
-  }
-  .section-header img {
-    width: 50%;
-    height: auto;
-    margin-top: 300px !important;
-  }
-  .section-header-text {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin-top: 50px;
-  }
-  .section-header-text h1 {
-    font-family: "Dancing Script", cursive;
-    font-size: 30px;
-    margin-top: 50px;
-  }
-  .section-header-text p {
-    font-family: "Raleway", sans-serif;
-    font-size: 16px;
-    text-align: center;
-  }
-  .grid-gallery-img {
-    max-width: 100% !important;
-    height: auto !important;
-    margin-top: 20px !important;
-  }
-}
-
-@media only screen and (max-width: 600px) {
-  .album-header {
-    margin-top: 150px !important;
-  }
-  .navbar {
-    background: #fff !important;
-    position: relative !important;
-    width: 100%;
-    padding-bottom: unset !important;
-  }
-  .nav-link {
-    font-family: "Dancing Script", cursive;
-    font-size: 24px;
-    margin-left: 10px;
-    margin-right: 10px;
-    color: #000 !important;
-  }
-  .navbar-brand img {
-    width: 100px;
-    height: auto;
-    display: block !important;
-  }
-  .top-nav-logo {
-    display: none;
-  }
-
-  .main-page img {
-    width: 100% !important;
-    height: auto;
-    position: relative !important;
-    margin-bottom: -300px !important;
-  }
-
-  .video-row {
-    display: flex !important;
-    justify-content: center !important;
-    align-items: center !important;
-    margin-top: -300px !important;
-    flex-direction: column !important;
-    margin-bottom: 280px;
-  }
-
-  .couple {
-    position: fixed !important;
-    margin-top: 20px !important;
-    display: flex !important;
-    justify-content: center;
-    align-items: center;
-  }
-  .couple-content h1 {
-    margin-top: 15px;
-    font-family: "Dancing Script", cursive;
-    font-size: 24px;
-  }
-  .couple-content p {
-    margin-top: 0px !important;
-    font-family: "Raleway", sans-serif;
-    font-size: 16px;
-    text-align: center;
-    padding: 0px !important;
-    margin-bottom: -300px !important;
-  }
-  .card {
-    width: 100%;
-    height: auto;
-    display: flex;
-    justify-content: center !important;
-    align-items: center !important;
-  }
-  .section-header {
-    margin-top: 300px !important;
-  }
-  .section-header img {
-    width: 50%;
-    height: auto;
-    margin-top: 100px !important;
-  }
-  .section-header-text {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin-top: 50px;
-  }
-  .section-header-text h1 {
-    font-family: "Dancing Script", cursive;
-    font-size: 30px;
-    margin-top: 50px;
-  }
-  .section-header-text p {
-    font-family: "Raleway", sans-serif;
-    font-size: 16px;
-    text-align: center;
-  }
-  .grid-gallery-img {
-    max-width: 100% !important;
-    height: auto !important;
-    margin-top: 20px !important;
-  }
-}
-
-@media only screen and (max-width: 700px) {
-  .album-header {
-    margin-top: 150px !important;
-  }
-  .navbar {
-    background: #fff !important;
-    position: relative !important;
-    width: 100%;
-    padding-bottom: unset !important;
-  }
-  .nav-link {
-    font-family: "Dancing Script", cursive;
-    font-size: 24px;
-    margin-left: 10px;
-    margin-right: 10px;
-    color: #000 !important;
-  }
-  .navbar-brand img {
-    width: 100px;
-    height: auto;
-    display: block !important;
-  }
-  .top-nav-logo {
-    display: none;
-  }
-
-  .video-row {
-    display: flex !important;
-    justify-content: center !important;
-    align-items: center !important;
-    margin-top: -300px !important;
-    flex-direction: column !important;
-    margin-bottom: 280px;
-  }
-
-  .couple {
-    position: static !important;
-    margin-top: 400px !important;
-    display: flex !important;
-    justify-content: center;
-    align-items: center;
-  }
-  .couple-content h1 {
-    margin-top: 15px;
-    font-family: "Dancing Script", cursive;
-    font-size: 24px;
-  }
-  .couple-content p {
-    margin-top: 0px !important;
-    font-family: "Raleway", sans-serif;
-    font-size: 16px;
-    text-align: center;
-    padding: 0px !important;
-    margin-bottom: -150px;
-  }
-  .card {
-    max-width: 100%;
-    height: auto;
-    display: flex;
-    justify-content: center !important;
-    align-items: center !important;
-  }
-  .section-header {
-    margin-top: 300px !important;
-  }
-  .section-header img {
-    width: 70%;
-    height: auto;
-    margin-top: 150px;
-  }
-  .section-header #logo {
-    width: 25%;
-    height: auto;
-    margin-top: -160px;
-  }
-  .section-header-text {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin-top: 50px;
-  }
-  .section-header-text h1 {
-    font-family: "Dancing Script", cursive;
-    font-size: 30px;
-    margin-top: 50px;
-  }
-  .section-header-text p {
-    font-family: "Raleway", sans-serif;
-    font-size: 16px;
-    text-align: center;
-  }
-  .grid-gallery-img {
-    max-width: 100% !important;
-    height: auto !important;
-    margin-top: 20px !important;
-  }
-}
-
-@media only screen and (max-width: 800px) {
-  .album-header {
-    margin-top: 150px !important;
-  }
-  .navbar {
-    background: #fff !important;
-    position: relative !important;
-    width: 100%;
-    padding-bottom: unset !important;
-  }
-  .nav-link {
-    font-family: "Dancing Script", cursive;
-    font-size: 24px;
-    margin-left: 10px;
-    margin-right: 10px;
-    color: #000 !important;
-  }
-  .navbar-brand img {
-    width: 100px;
-    height: auto;
-    display: block !important;
-  }
-  .top-nav-logo {
-    display: none;
-  }
-
-  .video-row {
-    display: flex !important;
-    justify-content: center !important;
-    align-items: center !important;
-    margin-top: -300px !important;
-    flex-direction: column !important;
-    margin-bottom: 280px;
-  }
-
-  .couple {
-    position: static !important;
-    margin-top: 500px;
-    display: flex !important;
-    justify-content: center;
-    align-items: center;
-  }
-  .couple-content h1 {
-    margin-top: 15px;
-    font-family: "Dancing Script", cursive;
-    font-size: 24px;
-  }
-  .couple-content p {
-    margin-top: 0px !important;
-    font-family: "Raleway", sans-serif;
-    font-size: 16px;
-    text-align: center;
-    padding: 0px !important;
-    margin-bottom: -150px;
-  }
-  .card {
-    max-width: 100%;
-    height: auto;
-    display: flex;
-    justify-content: center !important;
-    align-items: center !important;
-  }
-  .section-header {
-    margin-top: 300px !important;
-  }
-  .section-header img {
-    width: 70%;
-    height: auto;
-    margin-top: 150px;
-  }
-  .section-header #logo {
-    width: 25%;
-    height: auto;
-    margin-top: -160px;
-  }
-  .section-header-text {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin-top: 50px;
-  }
-  .section-header-text h1 {
-    font-family: "Dancing Script", cursive;
-    font-size: 30px;
-    margin-top: 50px;
-  }
-  .section-header-text p {
-    font-family: "Raleway", sans-serif;
-    font-size: 16px;
-    text-align: center;
-  }
-  .grid-gallery-img {
-    max-width: 100% !important;
-    height: auto !important;
-    margin-top: 20px !important;
+    border-radius: 10px !important;
+    margin-top: 10px;
   }
 }
 
@@ -933,20 +323,24 @@
 
 /*FB GRID VIEW*/
 .tz-gallery {
-  width: 84%;
+  width: 100%;
+  height: fit-content;
   background: var(--background);
-  padding: 2rem 8%;
-  column-count: 4;
+  padding: 20px;
+  column-count: 3;
   gap: 10px;
+  position: relative !important;
+  margin-top: 550px !important;
 }
 
 /*Gellery Popup*/
 .lightbox img {
   transition: 0.2s ease-in-out;
   box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
-  max-height: 170px;
-  object-fit: cover;
-  object-position: top;
+  width: fit-content;
+  max-height: auto;
+  object-fit: cover !important;
+  object-position: top !important;
 }
 
 /*Facebook Like Gallery*/
@@ -1005,7 +399,7 @@
 
 @media (max-width: 802px) {
   .tz-gallery {
-    margin-top: 25em;
+    margin-top: 250px !important;
     column-count: 2;
   }
   .lightbox img {

@@ -20,9 +20,15 @@
     <title>The SaSi Affair</title>
 
     <style type="text/css">
+    .main-page {
+        max-width: 100%;
+        height: fit-content;
+    }
+
     .main-page img {
-        height: 30em;
-        object-fit: cover;
+        width: 100%;
+        height: auto !important;
+
     }
     </style>
 
@@ -37,7 +43,7 @@
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-fixed-top">
         <div class="container-fluid">
-            <a class="navbar-brand" href="index.php">
+            <a class="navbar-brand" href="../../index.php">
                 <img src="../../images/logo.png" alt="">
             </a>
             <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse"
@@ -103,7 +109,7 @@
     <!-- Main Page -->
     <section class="section">
         <div class="main-page">
-            <img src="../../images/cover/third-section-cover.jpg" alt="" class="img-fluid">
+            <img src="../../images/cover/bg2.png" alt="" class="img-fluid">
         </div>
     </section>
     <!-- End Main Page -->
