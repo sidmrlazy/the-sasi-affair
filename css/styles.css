@@ -12,7 +12,6 @@
   height: auto;
 }
 
-/* =================== NAVBAR =================== */
 .navbar {
   background: #00000000 !important;
   width: 100%;
@@ -54,7 +53,6 @@
   font-size: 24px;
 }
 
-/* =================== MAIN PAGE =================== */
 .main-page img {
   width: 100%;
   height: auto;
@@ -64,7 +62,6 @@
   right: 0;
 }
 
-/* =================== VIDEO SECTION =================== */
 .video-row {
   display: flex !important;
   justify-content: center !important;
@@ -94,8 +91,15 @@
   max-height: 200px;
   border-radius: 20px;
 }
+.carousel {
+  margin-left: -100px;
+  margin-right: -100px;
+}
+.carousel-control-next,
+.carousel-control-prev /*, .carousel-indicators */ {
+  filter: invert(100%);
+}
 
-/* =================== COUPLE PAGE =================== */
 .couple {
   position: static !important;
   margin-top: 650px;
@@ -153,8 +157,6 @@
   height: auto !important;
 }
 
-/* =================== SECTION HEADER =================== */
-
 .section-header {
   display: flex;
   justify-content: center;
@@ -196,7 +198,6 @@
   border-radius: 10px !important;
 }
 
-/* =================== TILAK GALLERY =================== */
 .gallery-tilak {
   margin-top: 200px;
   display: flex;
@@ -223,6 +224,42 @@
   font-weight: bold;
   color: #fff;
 }
+
+/*FB GRID VIEW*/
+.tz-gallery {
+  width: 100%;
+  height: fit-content;
+  background: var(--background);
+  padding: 20px;
+  column-count: 3;
+  gap: 10px;
+  position: relative !important;
+  margin-top: 550px !important;
+}
+
+/*Gellery Popup*/
+.lightbox img {
+  transition: 0.2s ease-in-out;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+  width: fit-content;
+  max-height: auto;
+  object-fit: cover !important;
+  object-position: top !important;
+}
+
+/*Facebook Like Gallery*/
+.big {
+  width: 54em;
+  height: 39em;
+  padding: 10px;
+}
+.small {
+  width: 31em;
+  height: 22em;
+  padding: 10px;
+}
+
+/* ======= MOBILE VIEW ======= */
 @media only screen and (max-width: 768px) {
   .top-nav-logo {
     display: none;
@@ -271,6 +308,10 @@
     flex-direction: column !important;
     margin-top: 10px !important;
   }
+  .carousel {
+    margin-left: 0;
+    margin-right: 0;
+  }
   .couple-section {
     margin: 0;
     top: 0;
@@ -317,42 +358,6 @@
     border-radius: 10px !important;
     margin-top: 10px;
   }
-}
-
-/*By Hasan*/
-
-/*FB GRID VIEW*/
-.tz-gallery {
-  width: 100%;
-  height: fit-content;
-  background: var(--background);
-  padding: 20px;
-  column-count: 3;
-  gap: 10px;
-  position: relative !important;
-  margin-top: 550px !important;
-}
-
-/*Gellery Popup*/
-.lightbox img {
-  transition: 0.2s ease-in-out;
-  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
-  width: fit-content;
-  max-height: auto;
-  object-fit: cover !important;
-  object-position: top !important;
-}
-
-/*Facebook Like Gallery*/
-.big {
-  width: 54em;
-  height: 39em;
-  padding: 10px;
-}
-.small {
-  width: 31em;
-  height: 22em;
-  padding: 10px;
 }
 
 @media (max-width: 1400px) {
