@@ -2,12 +2,12 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6 section-header">
-                <img src="images/genda-vector-2.png" alt="" />
+                <img src="images/section-logo/mehendi-si.jpg" alt="" />
             </div>
 
             <div class="col-md-6 section-header-text">
                 <h1>Mehendi Ceremony (Sa)</h1>
-                <p>A Mehndi party is the pre-wedding celebration in Hindu and Sikh culture when the bride has the
+                <p>A Mehndi is the pre-wedding celebration in Hindu culture when the bride has the
                     red-orange mehndi "stain" applied to her palms, back of hands, and feet.</p>
             </div>
         </div>

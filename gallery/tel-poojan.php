@@ -2,8 +2,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6 section-header">
-                <img src="images/genda-vector.png" alt="" />
-                <!-- <img src="images/logo-new.png" alt="" id="logo" /> -->
+                <img src="images/section-logo/tel-poojan-sa.jpeg" alt="" />
             </div>
 
             <div class="col-md-6 section-header-text">

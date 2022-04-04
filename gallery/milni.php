@@ -2,7 +2,8 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6 section-header">
-                <img src="images/genda-vector-2.png" alt="" />
+                <!-- <img src="images/genda-vector-2.png" alt="" /> -->
+                <img src="images/section-logo/1.jpg" alt="" />
             </div>
             <div class="col-md-6 section-header-text">
                 <h1>Milni</h1>
