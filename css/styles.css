@@ -312,6 +312,10 @@
     margin-left: 0;
     margin-right: 0;
   }
+  .carousel-control-next,
+.carousel-control-prev /*, .carousel-indicators */ {
+    filter: invert(100%);
+  }
   .couple-section {
     margin: 0;
     top: 0;
