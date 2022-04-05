@@ -2,7 +2,7 @@
     <div class="container">
         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
-                <div class="carousel-item active">
+                <div data-bs-interval="15000" class="carousel-item active">
                     <div class="video-row">
                         <div class="card card-responsive col-md-5" style="width: 18rem;">
                             <video class="video" controls muted autoplay>
@@ -29,7 +29,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="carousel-item">
+                <div data-bs-interval="15000" class="carousel-item">
                     <div class="video-row">
                         <div class="card col-md-5" style="width: 18rem;">
                             <video class="video" controls muted autoplay>
@@ -56,7 +56,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="carousel-item">
+                <div data-bs-interval="15000" class="carousel-item">
                     <div class="video-row">
                         <div class="card col-md-5" style="width: 18rem;">
                             <video class="video" controls muted autoplay>
@@ -84,7 +84,7 @@
                     </div>
                 </div>
 
-                <div class="carousel-item">
+                <div data-bs-interval="15000" class="carousel-item">
                     <div class="video-row">
                         <div class="card col-md-5" style="width: 18rem;">
                             <video class="video" controls muted autoplay>
@@ -112,7 +112,7 @@
                     </div>
                 </div>
 
-                <div class="carousel-item">
+                <div data-bs-interval="15000" class="carousel-item">
                     <div class="video-row">
                         <div class="card col-md-5" style="width: 18rem;">
                             <video class="video" controls muted autoplay>
