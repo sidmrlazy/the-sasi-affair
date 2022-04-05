@@ -56,9 +56,90 @@
                         </div>
                     </div>
                 </div>
-                <!-- <div class="carousel-item">
-                    <img src="..." class="d-block w-100" alt="...">
-                </div> -->
+                <div class="carousel-item">
+                    <div class="video-row">
+                        <div class="card col-md-5" style="width: 18rem;">
+                            <video class="video" controls muted autoplay>
+                                <source src="videos/video7.mp4" type="video/mp4">
+                                <source src="movie.ogg" type="video/ogg">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+
+                        <div class="card col-md-5" style="width: 18rem;">
+                            <video class="video" controls muted autoplay>
+                                <source src="videos/video8.mp4" type="video/mp4">
+                                <source src="movie.ogg" type="video/ogg">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+
+                        <div class="card col-md-5" style="width: 18rem;">
+                            <video class="video" controls muted autoplay>
+                                <source src="videos/video9.mp4" type="video/mp4">
+                                <source src="movie.ogg" type="video/ogg">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="video-row">
+                        <div class="card col-md-5" style="width: 18rem;">
+                            <video class="video" controls muted autoplay>
+                                <source src="videos/video10.mp4" type="video/mp4">
+                                <source src="movie.ogg" type="video/ogg">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+
+                        <div class="card col-md-5" style="width: 18rem;">
+                            <video class="video" controls muted autoplay>
+                                <source src="videos/video11.mp4" type="video/mp4">
+                                <source src="movie.ogg" type="video/ogg">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+
+                        <div class="card col-md-5" style="width: 18rem;">
+                            <video class="video" controls muted autoplay>
+                                <source src="videos/video12.mp4" type="video/mp4">
+                                <source src="movie.ogg" type="video/ogg">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="video-row">
+                        <div class="card col-md-5" style="width: 18rem;">
+                            <video class="video" controls muted autoplay>
+                                <source src="videos/video13.mp4" type="video/mp4">
+                                <source src="movie.ogg" type="video/ogg">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+
+                        <div class="card col-md-5" style="width: 18rem;">
+                            <video class="video" controls muted autoplay>
+                                <source src="videos/video14.mp4" type="video/mp4">
+                                <source src="movie.ogg" type="video/ogg">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+
+                        <!-- <div class="card col-md-5" style="width: 18rem;">
+                            <video class="video" controls muted autoplay>
+                                <source src="videos/video15.mp4" type="video/mp4">
+                                <source src="movie.ogg" type="video/ogg">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div> -->
+                    </div>
+                </div>
+
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
                 data-bs-slide="prev">

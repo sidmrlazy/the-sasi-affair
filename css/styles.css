@@ -240,7 +240,7 @@
 /*Gellery Popup*/
 .lightbox img {
   transition: 0.2s ease-in-out;
-  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2) !important;
   width: fit-content;
   max-height: auto;
   object-fit: cover !important;
@@ -257,6 +257,11 @@
   width: 31em;
   height: 22em;
   padding: 10px;
+}
+
+.box img {
+  margin-bottom: 10px;
+  width: 100%;
 }
 
 /* ======= MOBILE VIEW ======= */
@@ -471,8 +476,4 @@
   .lightbox img {
     max-height: 5em;
   }
-}
-.box img {
-  margin-bottom: 10px;
-  width: 100%;
 }
